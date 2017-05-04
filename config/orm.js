@@ -1,10 +1,6 @@
-//Require connection.js into orm.js
 var connection = require('../config/connection.js')
 
-
-
-
-//Create the methods that will execute the necessary MySQL.
+//Create the methods
 var orm = 
 	{
 
@@ -28,7 +24,6 @@ var orm =
 						if (err) throw err;
 						callback(result);
 					});
-						
 			},
 
 		updateOne: function(burgerID, callback)

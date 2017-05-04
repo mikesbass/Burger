@@ -18,7 +18,6 @@ var connection;
 		});
 	};
 
-
 	connection.connect(function(err) 
 	{
 	  if (err) 
