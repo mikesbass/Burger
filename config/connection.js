@@ -13,8 +13,8 @@ var connection;
 		{
 			host: 'localhost',
 			user: 'root',
-			password: 'hacktheplanet',
-			database: 'todoagain_db'
+			password: 'John3:16',
+			database: 'burgers_db'
 		});
 	};
 
