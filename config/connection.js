@@ -11,10 +11,10 @@ var connection;
 	{
 		connection = mysql.createConnection(
 		{
-			host: 'jsk3f4rbvp8ayd7w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-			user: 'unbz77lm0q1x3ee8',
-			password: 'au8v0ydnsiyxb6ev',
-			database: 'burgers_db'
+			host: 'localhost',
+			user: 'root',
+			password: 'hacktheplanet',
+			database: 'todoagain_db'
 		});
 	};
 
