@@ -13,7 +13,7 @@ var connection;
 		{
 			host: 'localhost',
 			user: 'root',
-			password: 'melmatt6',
+			password: '???????',
 			database: 'burgers_db'
 		});
 	};
